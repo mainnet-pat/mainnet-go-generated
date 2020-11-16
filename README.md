@@ -38,6 +38,9 @@ All URIs are relative to *https://rest-unstable.mainnet.cash*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
+*ContractApi* | [**CreateEscrow**](docs/ContractApi.md#createescrow) | **Post** /contract/escrow/create | Create an escrow contract
+*ContractApi* | [**EscrowFn**](docs/ContractApi.md#escrowfn) | **Post** /contract/escrow/call | Finalize an escrow contract
+*ContractApi* | [**EscrowUtxos**](docs/ContractApi.md#escrowutxos) | **Post** /contract/escrow/utxos | List specific utxos in a contract
 *MineApi* | [**Mine**](docs/MineApi.md#mine) | **Post** /mine | Mine regtest coins to a specified address
 *WalletApi* | [**Balance**](docs/WalletApi.md#balance) | **Post** /wallet/balance | Get total balance for wallet
 *WalletApi* | [**CreateWallet**](docs/WalletApi.md#createwallet) | **Post** /wallet/create | create a new wallet
@@ -53,7 +56,12 @@ Class | Method | HTTP request | Description
 
  - [BalanceRequest](docs/BalanceRequest.md)
  - [BalanceResponse](docs/BalanceResponse.md)
+ - [Contract](docs/Contract.md)
+ - [ContractFnRequest](docs/ContractFnRequest.md)
+ - [ContractFnResponse](docs/ContractFnResponse.md)
+ - [ContractResponse](docs/ContractResponse.md)
  - [DepositAddressResponse](docs/DepositAddressResponse.md)
+ - [EscrowRequest](docs/EscrowRequest.md)
  - [MaxAmountToSendRequest](docs/MaxAmountToSendRequest.md)
  - [MineRequest](docs/MineRequest.md)
  - [ScalableVectorGraphic](docs/ScalableVectorGraphic.md)

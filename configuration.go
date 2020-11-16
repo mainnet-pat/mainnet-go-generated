@@ -93,7 +93,7 @@ func NewConfiguration() *Configuration {
 				Description: "unstable service (for development)",
 			},
 			{
-				Url: "http://localhost:3000/v1",
+				Url: "http://localhost:3000/",
 				Description: "local development server via npm run serve",
 			},
 		},
